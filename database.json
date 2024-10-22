@@ -1,0 +1,85 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "You've Been Lacing Up Your Shoes Wrong",
+            "body": "Try a runner's lace. It's much better for your feet",
+            "date": "07/24/24",
+            "topicId": 2,
+            "userId": 1 
+        },
+        {
+            "id": 2,
+            "title": "Green Sky Bluegrass",
+            "body": "It's a musical group",
+            "date": "10/4/24",
+            "topicId": 3,
+            "userId": 5 
+        },
+        {
+            "id": 3,
+            "title": "8-Step Zero Equipment Workout From The Ground Up",
+            "body": "Knees over toes!",
+            "date": "06/11/24",
+            "topicId": 2,
+            "userId": 1 
+        },
+        {
+            "id": 4,
+            "title": "Alegbra For Programmers",
+            "body": "Lessons on combinatorics, logarithms, linear equations",
+            "date": "06/11/24",
+            "topicId": 1,
+            "userId": 3 
+        },
+        {
+            "id": 5,
+            "title": "How To Make Your Website Not Ugly",
+            "body": "A lesson on UI/UX",
+            "date": "10/8/23",
+            "topicId": 1,
+            "userId": 1 
+        },
+        {
+            "id": 6,
+            "title": "C Programming Tutorial For Beginners",
+            "body": "A lesson from MyCodeCamp on writing with C language",
+            "date": "7/25/24",
+            "topicId": 1,
+            "userId": 1 
+        },
+        {
+            "id": 7,
+            "title": "TCP/IP For Programmers",
+            "body": "Eli teaches a robust lesson on internet transfer protocols",
+            "date": "11/27/23",
+            "topicId": 1,
+            "userId": 4 
+        },
+
+    ],
+    "users": [
+        { "id": 1, "name": "Joshua Smith", "email": "mtgmirage@protonmail.com", "cohort": "73"},
+        { "id": 2, "name": "Ricardo Tessitori", "email": "rtessitori@email.net", "cohort": "28"},
+        { "id": 3, "name": "Meyer Arnaut", "email": "marnaut@gmail.com", "cohort": "29"},
+        { "id": 4, "name": "Dill Phillips", "email": "dpman228@hotmail.com", "cohort": "48"},
+        { "id": 5, "name": "P. F. Brickman", "email": "ptworther@icebox.biz", "cohort": "3"}
+    ],
+    "topics": [
+        { "id": 1, "name": "Technology"},
+        { "id": 2, "name": "Wellness"},
+        { "id": 3, "name": "Music"},
+        { "id": 4, "name": "Literature"}
+    ],
+    "likes": [
+        { "id": 1, "postId": 1, "userId": 1},
+        { "id": 2, "postId": 2, "userId": 1},
+        { "id": 3, "postId": 3, "userId": 2},
+        { "id": 4, "postId": 3, "userId": 6},
+        { "id": 5, "postId": 3, "userId": 5},
+        { "id": 6, "postId": 5, "userId": 3},
+        { "id": 7, "postId": 6, "userId": 5},
+        { "id": 8, "postId": 7, "userId": 1},
+        { "id": 9, "postId": 7, "userId": 3}
+    ]
+}
