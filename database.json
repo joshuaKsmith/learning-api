@@ -55,8 +55,7 @@
             "date": "11/27/23",
             "topicId": 1,
             "userId": 4 
-        },
-
+        }
     ],
     "users": [
         { "id": 1, "name": "Joshua Smith", "email": "mtgmirage@protonmail.com", "cohort": "73"},
